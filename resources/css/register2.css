@@ -1,0 +1,383 @@
+.register {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.register .overlap-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.register .overlap {
+  position: relative;
+  height: 1024px;
+}
+
+.register .creat-account {
+  position: absolute;
+  top: 0;
+  left: 480px;
+  width: 960px;
+  height: 1024px;
+  background-color: #ffffff;
+}
+
+/* Judul */
+.register .text-wrapper {
+  position: absolute;
+  top: 115px;
+  left: 109px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+}
+
+/* Tombol Daftar */
+.register .frame {
+  position: absolute;
+  top: 548px;
+  left: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 15px 40px;
+  width: 719px;
+  background-color: #0084d6;
+  border-radius: 10px;
+}
+
+.register .div {
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+/* Tombol Google */
+.register .frame-2 {
+  position: absolute;
+  top: 708px;
+  left: 310px;
+  width: 349px;
+  height: 67px;
+  border: 1px solid #00a2e8;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.register .masuk-dengan-google-wrapper {
+  position: absolute;
+  top: 15px;
+  left: 85px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 34px;
+  padding: 0 8px;
+  background-color: #ffffff;
+}
+
+.register .masuk-dengan-google {
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #9f9f9f;
+  font-size: 20px;
+  line-height: 0.1px;
+}
+
+.register .icon-google {
+  position: absolute;
+  top: 18px;
+  left: 25px;
+  width: 33px;
+  height: 30px;
+}
+
+/* Text Garis */
+.register .text-wrapper-2,
+.register .text-wrapper-3,
+.register .text-wrapper-4 {
+  position: absolute;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 0.1px;
+}
+
+.register .text-wrapper-2 {
+  top: 642px;
+  left: 125px;
+  color: #9f9f9f;
+  font-family: "Poppins", Helvetica;
+}
+
+.register .text-wrapper-3 {
+  top: 674px;
+  left: 459px;
+  color: #9f9f9f;
+  font-family: "Poppins", Helvetica;
+}
+
+.register .text-wrapper-4 {
+  top: 641px;
+  left: 340px;
+  color: #387c9f;
+  font-family: "Inter", Helvetica;
+}
+
+.register .line {
+  position: absolute;
+  top: 677px;
+  left: 122px;
+  width: 714px;
+  height: 1px;
+  object-fit: cover;
+}
+
+/* Input Email */
+.register .overlap-group {
+  position: absolute;
+  top: 329px;
+  left: 118px;
+  width: 721px;
+  height: 84px;
+}
+
+.register .frame-3 {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  width: 721px;
+  height: 67px;
+  border: 1px solid #00a2e8;
+  border-radius: 10px;
+}
+
+.register .div-wrapper {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 8px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.register .text-wrapper-5 {
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+
+.register .text-wrapper-6 {
+  position: absolute;
+  top: 51px;
+  left: 39px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+/* Input Nama Depan */
+.register .overlap-2,
+.register .overlap-3 {
+  position: absolute;
+  top: 228px;
+  height: 84px;
+}
+
+.register .overlap-2 {
+  left: 121px;
+  width: 339px;
+}
+
+.register .log {
+  position: absolute;
+  top: 17px;
+  width: 339px;
+  height: 67px;
+  border-radius: 10px;
+  border: 1px solid #00a2e8;
+}
+
+.register .frame-4 {
+  position: absolute;
+  top: 0;
+  left: 27px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 8px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.register .text-wrapper-7 {
+  position: absolute;
+  top: 51px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+/* Input Nama Belakang */
+.register .overlap-3 {
+  left: 485px;
+  width: 352px;
+}
+
+.register .log-2 {
+  position: absolute;
+  top: 17px;
+  width: 352px;
+  height: 67px;
+  border-radius: 10px;
+  border: 1px solid #00a2e8;
+}
+
+.register .frame-5 {
+  position: absolute;
+  top: 0;
+  left: 37px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0 8px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.register .text-wrapper-8 {
+  position: absolute;
+  top: 51px;
+  left: 47px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+/* Input Password */
+.register .overlap-4 {
+  position: absolute;
+  top: 429px;
+  left: 118px;
+  width: 721px;
+  height: 84px;
+}
+
+.register .view-hide {
+  position: absolute;
+  top: 35px;
+  left: 669px;
+  width: 30px;
+  height: 30px;
+}
+
+.register .overlap-group-2 {
+  position: relative;
+  top: 2px;
+  left: 3px;
+  width: 24px;
+  height: 22px;
+}
+
+.register .subtract,
+.register .img,
+.register .vector {
+  position: absolute;
+}
+
+.register .subtract {
+  top: 8px;
+  left: 7px;
+  width: 10px;
+  height: 10px;
+}
+
+.register .img {
+  top: 5px;
+  left: 0;
+  width: 24px;
+  height: 17px;
+}
+
+.register .vector {
+  top: 0;
+  left: 3px;
+  width: 21px;
+  height: 21px;
+}
+
+.register .text-wrapper-9 {
+  position: absolute;
+  top: 50px;
+  left: 39px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+/* Bagian bawah */
+.register .overlap-5 {
+  position: absolute;
+  top: 783px;
+  left: 377px;
+  width: 206px;
+  height: 92px;
+}
+
+.register .image {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 206px;
+  height: 62px;
+  object-fit: cover;
+}
+
+.register .text-wrapper-10 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 199px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  font-size: 22px;
+  color: #746c6c;
+}
+
+/* Bagian kiri */
+.register .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 538px;
+  height: 1024px;
+  background-color: #00a2e899;
+}
+
+.register .grammar-correction {
+  position: absolute;
+  top: 241px;
+  left: 36px;
+  width: 447px;
+  height: 456px;
+  object-fit: cover;
+}

@@ -1,0 +1,161 @@
+.login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .overlap-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.login .overlap {
+  position: relative;
+  height: 1024px;
+}
+
+.login .creat-account {
+  position: absolute;
+  width: 960px;
+  height: 1024px;
+  top: 0;
+  left: 480px;
+  background-color: #ffffff;
+}
+
+.login .text-wrapper {
+  position: absolute;
+  top: 115px;
+  left: 109px;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  font-family: "Poppins", Helvetica;
+}
+
+.login .frame {
+  display: flex;
+  width: 719px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px;
+  top: 447px;
+  left: 119px;
+  background-color: #0084d6;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.login .div {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Poppins", Helvetica;
+}
+
+.login .text-wrapper-2 {
+  position: absolute;
+  top: 533px;
+  left: 125px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+
+.login .text-wrapper-3 {
+  position: absolute;
+  top: 533px;
+  left: 340px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #387c9f;
+  font-size: 20px;
+}
+
+.login .overlap-group {
+  position: absolute;
+  width: 721px;
+  height: 84px;
+  top: 329px;
+  left: 118px;
+}
+
+.login .div-2 {
+  width: 721px;
+  height: 67px;
+  top: 17px;
+  left: 0;
+  border: 1px solid #00a2e8;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.login .div-wrapper {
+  display: inline-flex;
+  height: 36px;
+  align-items: center;
+  padding: 0 8px;
+  top: 0;
+  left: 30px;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.login .text-wrapper-4 {
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+
+.login .overlap-2 {
+  position: absolute;
+  width: 721px;
+  height: 84px;
+  top: 228px;
+  left: 121px;
+}
+
+.login .frame-2 {
+  display: inline-flex;
+  height: 36px;
+  align-items: center;
+  padding: 0 8px;
+  top: 0;
+  left: 27px;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.login .rectangle {
+  position: absolute;
+  width: 538px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+}
+
+.login .grammar-correction {
+  position: absolute;
+  width: 447px;
+  height: 456px;
+  top: 241px;
+  left: 36px;
+  object-fit: cover;
+}
+
+.input-field {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
