@@ -381,3 +381,26 @@
   height: 456px;
   object-fit: cover;
 }
+.input-nama-depan,
+.input-nama-belakang,
+.input-email,
+.input-sandi {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-daftar {
+  background-color: #008bbd;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-daftar:hover {
+  background-color: #008bbd;
+}
+

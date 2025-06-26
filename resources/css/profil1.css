@@ -1,0 +1,140 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,600|Poppins:var(--label-1-font-weight),400,700,600");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+.footer-tanggap {
+  background: linear-gradient(135deg, #00aaf4, #008acb);
+  color: #fff;
+  padding: 50px 30px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+  max-width: 1200px;  /* agar tidak terlalu melebar di layar besar */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  height: 60px;
+  margin-right: 12px;
+}
+
+.footer-brand {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  min-width: 160px;
+}
+
+.footer-column strong {
+  font-size: 16px;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+.footer-column input.footer-search {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 180px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.footer-column input.footer-search:focus {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-links span {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-links span:hover {
+  color: #ffd700;
+}
+
+.footer-copy {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+/* ✅ Responsif untuk tablet dan layar kecil */
+@media (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-left {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-brand {
+    margin-top: 10px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  .footer-column input.footer-search {
+    max-width: 100%;
+  }
+}
